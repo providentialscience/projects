@@ -21,9 +21,10 @@ header {
 }
 
 .logo img {
-  height: 100px;
+  height: 150px;
   margin-top: -20px;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
+  padding-left: 5%;
 }
 
 nav ul {
