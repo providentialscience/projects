@@ -68,17 +68,32 @@ table {
 }
 
 table th,
-table td {
+table td,
+table thead,
+table tfoot{
   border: 1.2px solid #000;
   padding: 10px;
+  color: #fff;
 }
 
 table th {
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 table td {
-  background-color: #f5f5f5;
+  background-color: #ffb3b3;
+}
+
+table thead {
+  background-color: #ffd9b3;
+}
+
+table tfoot {
+  background-color: #b3ffb3;
+}
+
+table:hover {
+  text-decoration: underline;
 }
 
 ul {
