@@ -67,7 +67,9 @@ table {
   width: 100%;
 }
 
-table th,
+table th {
+  color: black;
+}
 table td,
 table thead,
 table tfoot{
@@ -92,8 +94,13 @@ table tfoot {
   background-color: #b3ffb3;
 }
 
-table:hover {
+table a:{
+  text-decoration: none;
+  color: #fff;
+}
+table a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 ul {
